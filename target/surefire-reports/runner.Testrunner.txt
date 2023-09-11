@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testrunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 71.163 s <<< FAILURE! - in runner.Testrunner
+Login with valid Email and inavalid password(Login functionality)  Time elapsed: 11.739 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.013
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fe225b4da9a3b422e45290f4fe47ad2, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\mudir\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52731/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fe225b4da9a3b422e45290f4fe47ad2
+
+user searches for a valid product(Search functionality)  Time elapsed: 2.924 s  <<< FAILURE!
+java.lang.AssertionError
+
